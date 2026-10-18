@@ -83,3 +83,4 @@ app.post("/api/blogs", async (req, res) => {
     res.status(400).json({ message: err.message });
   }
 });
+module.exports = app;
